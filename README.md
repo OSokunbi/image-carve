@@ -6,13 +6,15 @@ using the carver package in your own projects is pretty simple, you need to impo
 import "github.com/OSokunbi/image-carve/carver"
 ```
 
-there is a total of 3 functions that you can use from the carver package
+there is a total of 4 functions that you can use from the carver package
 
 1. `carver.Carve` - this function takes in am image as well as a target height and width for that image and returns a new image that is the target height and width
 
 2. `carver.Rotate90` - this function takes in an image and returns a new image that is rotated 90 degrees
 
 3. `carver.RotateMinus90` - this function takes in an image and returns a new image that is rotated -90 degrees
+
+3.`caver.Energy` - this function takes in an image calculates the energy of each pixel in the image, returning this as a 2D slice of floats
 
 Examples of how to use these functions can be found in the `main.go` file in the root of this repository
 
