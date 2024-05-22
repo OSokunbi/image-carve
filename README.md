@@ -6,6 +6,11 @@ using the carver package in your own projects is pretty simple, you need to impo
 import "github.com/OSokunbi/image-carve/carver"
 ```
 
+then run
+```bash
+go get -u github.com/OSokunbi/image-carve/carver
+```
+
 there is a total of 4 functions that you can use from the carver package
 
 1. `carver.Carve` - this function takes in am image as well as a target height and width for that image and returns a new image that is the target height and width
