@@ -14,7 +14,7 @@ there is a total of 4 functions that you can use from the carver package
 
 3. `carver.RotateMinus90` - this function takes in an image and returns a new image that is rotated -90 degrees
 
-3.`caver.Energy` - this function takes in an image calculates the energy of each pixel in the image, returning this as a 2D slice of floats
+4. `caver.Energy` - this function takes in an image calculates the energy of each pixel in the image, returning this as a 2D slice of floats
 
 Examples of how to use these functions can be found in the `main.go` file in the root of this repository
 
