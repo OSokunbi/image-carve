@@ -46,6 +46,32 @@ where:
 
 a new jpg image will be saved in the root of the repository with the name `output.jpg`
 
+here's an example, take an original image
+
+![original image](./images/example.jpg)
+
+it originally has the following dimensions
+
+```
+width: 800px
+height: 400px
+```
+
+say you wanted to resize this image for a profile picture, but its originally to large to make it your profile pictyre without losing a lot of import details in the image, you could resize it like so
+
+```bash
+./main -filename=./images/example.jpg -height=400 -width=400
+```
+
+the image now has the following dimensions
+
+```
+width: 400px
+height: 400px
+```
+and looks like this
+![carved image](./images/output.jpg)
+ 
 
 peace :P
 
