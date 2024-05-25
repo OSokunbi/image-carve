@@ -57,7 +57,7 @@ width: 800px
 height: 400px
 ```
 
-say you wanted to resize this image for a profile picture, but its originally to large to make it your profile pictyre without losing a lot of import details in the image, you could resize it like so
+say you wanted to resize this image for a profile picture, but its originally too large to make it your profile pictire without losing a lot of import details in the image, you could resize it like so
 
 ```bash
 ./main -filename=./images/example.jpg -height=400 -width=400
