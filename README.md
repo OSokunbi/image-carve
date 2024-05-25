@@ -70,6 +70,7 @@ width: 400px
 height: 400px
 ```
 and looks like this
+
 ![carved image](./images/output.jpg)
  
 
